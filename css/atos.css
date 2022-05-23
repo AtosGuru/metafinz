@@ -1,0 +1,115 @@
+.splash-div {
+  width:100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../img/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: lightblue;
+  position: relative;
+  padding-bottom: 50px;
+}
+.top-logo {
+  width: 200px;
+  color:white;
+}
+.left-top {
+
+  color: white;
+  cursor: pointer;
+
+}
+.left-top img{
+  width:45px;
+}
+.center-logodiv {
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  color:white;
+  padding-top: 50px;
+}
+
+.center-logodiv img{
+  width: 100%;
+  font-size: 86px;
+  color:white;
+}
+.image-sliderdiv {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  /* margin-top:40px; */
+  margin-bottom:40px;
+}
+.image-slider {
+  border-radius: 50%;
+  border: 1px dashed white;
+  padding:20px;
+  
+backdrop-filter: blur(10px);
+}
+.image-slider img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.link-btn {
+  border: 2px solid white;
+  padding: 15px;
+  font-size: 25px;
+  width: 290px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 1s;
+  
+}
+.link-btn:hover {
+  margin-top: -10px;
+}
+.custom-link {
+  color:white;
+  text-decoration: none;
+}
+.custom-link:hover {
+  color:white;
+  text-decoration: none;
+}
+@keyframes fadeup {
+  from { margin-top: 0px }
+  to { margin-top: -10px;}
+}
+#top_info {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top:-50px;
+  transition:1s;
+  backdrop-filter: blur(10px);
+  color: white;
+  text-align: center;
+  background: rgba(0,0,0,0.4);
+  font-size: 30px;
+  z-index: 10;
+  display: flex;
+  padding-left:20px;
+  padding-right:20px;
+  justify-content: space-between;
+}
+.metafinz-info {
+  font-size: 18px;
+  color: white;
+  width: 78%;
+  margin: auto;
+  text-align: center;
+}
+.close-btn {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 425px){
+	
+
+}
